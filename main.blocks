@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="/eOKSe7=5XUWAM(1rzR@" x="-159" y="-401"><statement name="HANDLER"><block type="device_show_leds" id="Jb;tC.WDG?]+3s!zjuW."><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement></block><block type="device_forever" id="`ljASkoEzhlVYf#($HR9" x="55" y="-114"></block><block type="device_button_event" id="=y6,fQt(X=U0qYj3.(=p" x="-451" y="12"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="xSP0z`Ijv@8Pb3G,-H-%"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="music_set_built_in_speaker_enable" id="NOt6SG{{L0(Gi|wU*7Hd"><value name="enabled"><shadow type="toggleOnOff" id="Qe_EoCiNrigTg+Z3-?KF"><field name="on">true</field></shadow></value><next><block type="SoundExpression_playUntilDone" id="c~i]~-h4y9l?/ATot`Hq"><field name="this">soundExpression.happy</field><next><block type="music_set_built_in_speaker_enable" id="0tjOHI/CCaxfhVqtK`BY"><value name="enabled"><shadow type="toggleOnOff" id="F`.%qq_Qy%Ea7fed|^jw"><field name="on">false</field></shadow></value><next><block type="device_show_leds" id="(k-]eG@s8.|Buh@q.!N]"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="H`6tY+J]R?M?#3r,$@g[" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="[W5P_ReW~Co|lazFC8@+"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # # # # # 
+        # . . . #
+        `</field><next><block type="music_set_built_in_speaker_enable" id="l]pq9;I!hl@sGDS[2YBp"><value name="enabled"><shadow type="toggleOnOff" id="3]{4{7UFp$dApnI%LYr?"><field name="on">true</field></shadow></value><next><block type="SoundExpression_playUntilDone" id="z%P3QXGlR+JGrodR,y;v"><field name="this">soundExpression.sad</field><next><block type="music_set_built_in_speaker_enable" id="Tfu#eD]ad$gMgPEt*V6;"><value name="enabled"><shadow type="toggleOnOff" id="zY@;_Ws?9V;*RSVY9m8="><field name="on">false</field></shadow></value><next><block type="device_show_leds" id="Zy$x/EnABKkX:VkCuXlM"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
